@@ -70,10 +70,10 @@
       };
   
       const saveValues = () => {
-        // Сохраняем значения в локальное хранилище
+        
         localStorage.setItem('savedValues', JSON.stringify(form.value));
   
-        // Переход на страницу с сохраненными значениями
+       
         router.push('/saved-values');
       };
   
@@ -88,7 +88,7 @@
   </script>
   
   <style scoped>
-  /* Общие стили для всей страницы */
+
   body {
     font-family: Arial, sans-serif;
     background-color: #f5f5f5;
@@ -119,7 +119,7 @@
     color: #333;
   }
   
-  /* Стили для кнопки Remove */
+  
   .btn-danger {
     margin-left: 30px;
     background-color: #d9534f;
@@ -133,7 +133,7 @@
     color: #fff;
   }
   
-  /* Стили для мобильных устройств */
+  
   @media (max-width: 768px) {
    
     
